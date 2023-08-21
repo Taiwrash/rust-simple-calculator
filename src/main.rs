@@ -15,13 +15,14 @@ fn main() {
 }
 
 fn operate(ops: char, firstf32:f32, secondf32: f32)->f32{
-match ops{
-'+'=>firstf32 + secondf32,
-'-'=>firstf32 - secondf32,
-'*' | 'x' | 'X'=>firstf32 * secondf32,
-'/'=>firstf32 + secondf32,
-_=> panic!("That is not an operator")
-}
+  // Switch like in other programming with implicit return
+  match ops{
+  '+'=>firstf32 + secondf32,
+  '-'=>firstf32 - secondf32,
+  '*' | 'x' | 'X'=>firstf32 * secondf32,
+  '/'=>firstf32 + secondf32,
+  _=> panic!("That is not an operator")
+  }
 }
 
 fn formated_output(firstf32:f32, ops:char, secondf32: f32, result:f32) -> String{
