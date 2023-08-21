@@ -1,4 +1,4 @@
 # rust-simple-calculator
-First rust project
+A simple calculator performing simple mathematics operations with a formatted output using format macro
 
-> RASHEED LEARNING STARTING TODAY JUNE 11TH, 2023.
+> RASHEED  STARTING, LEARNING TODAY JUNE 11TH, 2023.
